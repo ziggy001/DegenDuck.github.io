@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DegenDuck WatchList.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/fav.png">
+</head>
+
+<body>
+    <section>
+        <div class="navbar">
+            <h1>DegenDuck WatchList</h1>
+            <img src="images/duck.png" alt="" class="duck">
+        </div>
+        <div class="solana-card">
+            <img src="images/solana.png" alt="" class="solana-logo">
+            <h1>Solana</h1>
+            <p id="price"></p>
+        </div>
+        <div class="charts-container">
+            <div class="cards">
+                <img src="images/cope.png" alt="" class="logo">
+                <h2>COPE</h2>
+                <p>Current Price: <span id="copePrice"></span></p>
+                <p>COPE/SOL: <span id="copePriceInSol"></span></p>
+                <p>24H High in SOL: <span id="cope24h-high"></span></p>
+                <p>24H Low in SOL: <span id="cope24h-low"></span></p>
+                <p>24H change:  <span id="cope24h-change"> </span></p>
+                <a href="copeChart.html" target="_blank" class="btn btn-2">Launch chart</a>
+            </div>
+            <div class="cards">
+                <img src="images/slrs.png" alt="" class="logo">
+                <h2>Solrise-finance</h2>
+                <p>Current Price: <span id="slrsPrice"></span></p>
+                <p>SLRS/SOL: <span id="slrsPriceInSol"></span></p>
+                <p>24H High in SOL: <span id="slrs24h-high"></span></p>
+                <p>24H Low in SOL: <span id="slrs24h-low"></span></p>
+                <p>24H change:  <span id="slrs24h-change"> </span></p>
+                <a href="slrsChart.html" target="_blank" class="btn btn-2">Launch chart</a>
+
+            </div>
+            <div class="cards">
+                <img src="images/tulip.png" alt="" class="logo">
+                <h2>SolFarm</h2>
+                <p>Current Price: <span id="tulipPrice"></span></p>
+                <p>TULIP/SOL: <span id="tulipPriceInSol"></span></p>
+                <p>24H High in SOL: <span id="tulip24h-high"></span></p>
+                <p>24H Low in SOL: <span id="tulip24h-low"></span></p>
+                <p>24H change:  <span id="tulip24h-change"> </span></p>
+                <a href="tulipChart.html" target="_blank" class="btn btn-2">Launch chart</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
